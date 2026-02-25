@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  next-app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - '1488:1488'
