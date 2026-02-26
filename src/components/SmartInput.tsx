@@ -71,7 +71,7 @@ export default function SmartInput({ onAddOrder }: Props) {
     rows={3}
     value={text}
     onChange={(e) => setText(e.target.value)}
-    placeholder="Приклад:&#10;Почайна - Бублік&#10;Холст 30х40"
+    placeholder={`Приклад:\nПочайна - Бублік\nХолст 30х40`}
     className="w-full px-3 py-2 bg-slate-700/50 border border-slate-600 rounded-lg text-sm text-white placeholder-slate-400 outline-none focus:ring-1 focus:ring-purple-400 transition"
     />
     <button
