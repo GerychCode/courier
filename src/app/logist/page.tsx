@@ -1,11 +1,11 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { LocationKey, Order, RouteResult } from '../types';
-import { calculateOptimalRoute } from '../utils/solver';
-import { LOCATIONS } from '../constants/logistics';
-import SmartInput from '../components/SmartInput';
-import RouteDisplay from '../components/RouteDisplay';
+import { LocationKey, Order, RouteResult } from '../../types';
+import { calculateOptimalRoute } from '../../utils/solver';
+import { LOCATIONS } from '../../constants/logistics';
+import SmartInput from '../../components/SmartInput';
+import RouteDisplay from '../../components/RouteDisplay';
 import { Map, PlusCircle } from 'lucide-react';
 
 export default function LogisticsPage() {
